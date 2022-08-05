@@ -40,7 +40,7 @@
     gap: 4rem;
     padding: 10rem 0;
     margin: 0 auto;
-    width: 90rem;
+    width: 100rem;
     justify-content: center;
     align-items: center;
     /* background-color: #333; */
@@ -54,7 +54,7 @@
   .des-caption1 {
     top: 235rem;
     font-size: 2rem;
-    width: 80%;
+    width: 100%;
   }
   .des-caption2 {
     width: 80%;
@@ -73,6 +73,16 @@
 @media screen and (max-width: 38em) {
   html {
     font-size: 120%;
+  }
+  .ingredients {
+    font-size: 2rem;
+  }
+  .preparation {
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #333;
+    background-color: #ffff;
   }
 }
 
