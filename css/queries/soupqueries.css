@@ -1,0 +1,95 @@
+/************/
+/* 960px  */
+@media screen and (max-width: 60em) {
+  html {
+    font-size: 60%;
+  }
+  .hero-content {
+    margin-top: 20%;
+  }
+}
+/************/
+/* 900px  */
+@media screen and (max-width: 56em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-content {
+    margin-top: 20%;
+  }
+}
+
+/************/
+/* 750px  */
+@media screen and (max-width: 47em) {
+  html {
+    font-size: 70%;
+  }
+  .nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 10rem 0;
+    margin: 0 auto;
+    width: 100rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #333; */
+  }
+  .description-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+  }
+  .des-caption1 {
+    top: 235rem;
+    font-size: 2rem;
+    width: 100%;
+  }
+  .des-caption2 {
+    width: 80%;
+    top: 322rem;
+    font-size: 3rem;
+  }
+  .des-caption3 {
+    font-size: 3rem;
+    width: 80%;
+    top: 360rem;
+  }
+}
+
+/************/
+/* 600px  */
+@media screen and (max-width: 38em) {
+  html {
+    font-size: 120%;
+  }
+  .ingredients {
+    font-size: 2rem;
+  }
+  .preparation {
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #333;
+    background-color: #ffff;
+  }
+}
+
+/************/
+/* 450px  */
+@media screen and (max-width: 28em) {
+  html {
+    font-size: 90%;
+  }
+}

@@ -31,6 +31,22 @@
 /* 550px  */
 @media screen and (max-width: 34em) {
   .hero-message {
+    font-size: 7rem;
+  }
+  .emphasized-message {
+    font-size: 10rem;
+  }
+  .message {
+    font-size: 1.4rem;
+  }
+  .hero-content {
+    margin-top: 55%;
+  }
+}
+/************/
+/* 450px  */
+@media screen and (max-width: 28em) {
+  .hero-message {
     font-size: 6rem;
   }
   .emphasized-message {
@@ -49,14 +65,36 @@
   html {
     font-size: 40%;
   }
+
   .hero-message {
-    font-size: 4rem;
+    font-size: 6rem;
   }
   .emphasized-message {
-    font-size: 8rem;
+    font-size: 10rem;
   }
   .message {
-    font-size: 1rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .hero-content {
+    margin-top: 65%;
+  }
+}
+/* 300px  */
+@media screen and (max-width: 19em) {
+  html {
+    font-size: 30%;
+  }
+
+  .hero-message {
+    font-size: 6rem;
+  }
+  .emphasized-message {
+    font-size: 10rem;
+  }
+  .message {
+    font-size: 3rem;
+    text-align: center;
   }
   .hero-content {
     margin-top: 65%;
